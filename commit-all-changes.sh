@@ -1,4 +1,4 @@
-#!usr/bin/sh
+#!usr/bin/bash
 # get the argument message
 message="$1"
 

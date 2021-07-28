@@ -35,7 +35,7 @@ pipeline{
 				echo 'I run when build is successful'
 		}
 		failure{
-				echo 'I run when build fails'
+				echo 'I run when build fails and failure is stepping stone for success'
 		}
 	}
 }

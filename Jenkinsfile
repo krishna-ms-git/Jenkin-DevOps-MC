@@ -29,10 +29,10 @@ pipeline{
 	}
 	post{
 		always{
-				echo 'I am running always'
+				echo 'running always as am awesome'
 		}
 		success{
-				echo 'I run when build is successful'
+				echo 'I run when build when everything is right'
 		}
 		failure{
 				echo 'I run when build fails and failure is stepping stone for success'

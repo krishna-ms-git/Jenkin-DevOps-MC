@@ -12,19 +12,19 @@ pipeline{
 	agent any
 	stages{
 		stage('Build'){
-			step{
+			steps{
 				echo 'Building'
 			}
 		}
 		stage('Test'){
-			step{
+			steps{
 				echo 'testing'
 			}
 		}
 		stage('integartion'){
-			step{
+			steps{
 				echo 'integration testing'
 			}
 		}		
-		}
+	}
 }

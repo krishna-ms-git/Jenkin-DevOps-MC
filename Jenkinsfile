@@ -10,11 +10,11 @@
 //Declarative
 pipeline{
 	//agent any
-	agent { docker { image 'node:13.8' } }
+	//agent { docker { image 'node:13.8' } }
 	stages{
 		stage('Build'){
 			steps{	
-				bash 'node --version'
+				//sh 'node --version'
 				echo 'Building'
 			}
 		}

@@ -9,12 +9,12 @@
 
 //Declarative
 pipeline{
-	agent any
-	//agent { docker { image 'node:13.8' } }
+	//agent any
+	agent { docker { image 'node:13.8' } }
 	stages{
 		stage('Build'){
 			steps{	
-				//sh 'node --version'
+				sh 'node --version'
 				echo "Path - envi.$PATH"
 				echo "build id - envi.$BUILD_ID"
 				echo "build tag - envi.$BIULD_TAG"
